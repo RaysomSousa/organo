@@ -1,10 +1,9 @@
-import './ListaSuspensa.css'
+import './DropDownList.css'
 
-const ListaSuspensa = (props) => {
-    console.log(props.itens)
+const DropDownList = (props) => {
     
     return(
-        <div className='lista-suspensa'>
+        <div className='DropDownList'>
             <label>{props.label}</label>
             <select>
                 {props.itens.map(item => {
@@ -15,4 +14,4 @@ const ListaSuspensa = (props) => {
     )
 }
 
-export default ListaSuspensa
+export default DropDownList
